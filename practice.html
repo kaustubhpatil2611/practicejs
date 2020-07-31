@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row row-content align-items-center " id="two" >
+            <div class="col-12">
+                <h3>Registration Form</h3>
+                <hr>
+            </div>
+            <div class="col-12 col-md-9">
+                <form name="myform">
+                    <div class="form-group row">
+                            <label for="year" class="col-12 col-md-2">Year</label>
+                            <div class="col-12 col-md-10">
+                            <select class="form-control" id="year" name="year">
+                                <option>2020</option>
+                                <option>2019</option>
+                                <option>2018</option>
+                                
+                            </select>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                        	<label for="dept" class="col-12 col-md-2">Department</label>
+                        	<div class="col-12 col-md-10">
+                            <select class="form-control" id="dept" name="dept">
+                            	<option>Chemical</option>
+                            	<option>Civil</option>
+                                <option>Computer Science</option>
+                                <option>Electronics</option>
+                                <option>Information Technology</option>
+                                <option>Mechanical</option>
+                            </select>
+                           </div>
+                        </div>
+                        <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <input type="submit" class="btn btn-primary" id="demo1" onclick="return generate();">
+                        </div>
+                    </div>
+                </form>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <span id="prn"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="practice.js"></script>
+</body>
+</html>
